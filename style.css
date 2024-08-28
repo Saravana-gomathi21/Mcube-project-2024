@@ -1,0 +1,14 @@
+.edu_place1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu_place2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu_place3{
+    display: flex;
+    justify-content: space-between;
+}
