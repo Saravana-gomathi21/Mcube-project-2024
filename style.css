@@ -1,14 +1,22 @@
-.edu_place1{
-    display: flex;
-    justify-content: space-between;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-.edu_place2{
-    display: flex;
-    justify-content: space-between;
+/* //landing_page// */
+.para{
+    align-items: start;
+    font-size: medium;
+    font-size:30px ;
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.img_land{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 750px;
+    top:80px;   
+}
+.main_land{
 
-.edu_place3{
-    display: flex;
-    justify-content: space-between;
 }
