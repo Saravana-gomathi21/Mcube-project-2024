@@ -1,5 +1,5 @@
 *{
-    margin: 3px;
+    margin: 0px;
     padding: 0px;
     border: 0px;
 }
@@ -62,32 +62,28 @@ header nav ul li{
     left: 750px;
     top:80px; 
 }
-.img_land:hover{
-    color: #bec7d4;
-    transition: 0.4s;
-    box-shadow: -12px 9px 20px #fff;
-}
-.para1_land{
-    align-items: start;
-    font-size: small;
-    color: black;
-    line-height: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.btn_land{
-    width: 130px;
-    height: 40px;
-    padding: 2 4;
-    background-color: #2d3355;
-    color: white;
-    border-radius: 12px;
-    font-family: calc(Arial);
-    cursor: pointer;
-}
-.btn_land:hover{
-    color: #bec7d4;
-    transition: 0.4s;
+.main_land{
+
 }
 
-
-
+/* Resume1 */
+.edu_place1{
+    display: flex;
+    justify-content: space-between;
+}
+.edu_place2{
+    display: flex;
+    justify-content: space-between;
+}
+.edu_place3{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.ip_side{
+    display: grid;
+    place-items: center;
+}

@@ -29,36 +29,36 @@
             <div class="Resume_head">
                 <div class="img_section">
                     <img src="" alt="Your photo">
-                    <h2>Your name</h2>
+                    <h2 id="name">Your name</h2>
                 </div>
                 <div class="address">
-                    <address>
+                    <pre id="add">
                         7,sivagamipuram street,<br>
                         Urkadu,<br>
                         Ambasamudram-627401,<br>
                         Tirunelveli,<br>
                         Tamilnadu,<br>
                         India
-                    </address>
+                    </pre>
                 </div><br>
             </div>
             <div class="proff_detail">
-                <article>
+                <p id="article">
                     Use this section to give recruiters a quick glimpse of your<br>
                     professional details. In just 3-4 lines, highlight your<br>
                     background, education and main skills.
-                </article>
+                </p>
             </div>
             <div class="proff_expr">
                 <h1>
                     Professional Experiance
                 </h1><br>
-                <article>
+                <article id="prof_article">
                     Summaize your Job experiance including Comapny Name,<br>
                     Duration of Job and your responsibility in those jobs.
                 </article>
                 <div class="job_list">
-                    <p class="job1">Company Name</p>
+                    <p class="job1" id="input_company">Company Name</p>
                     <ul>
                         <li>Responsibility</li>
                         <li>Responsibility</li>
@@ -123,9 +123,46 @@
             </div>
         </div>
         <div class="ip_side">
-            <label>
+            <label for="name">
                 Name
             </label>
+            <input type="text" id="inp_name">
+            <label>
+                Address
+            </label>
+            <textarea id="inp_add"></textarea>
+            <label for="inp_article">
+                 Self Article
+            </label>
+            <textarea id="inp_article"></textarea>
+            <label for="inp_prof_article">
+                Professional Article
+            </label>
+            <textarea id="inp_prof_article"></textarea>
+            <label for="comp_name1">
+                Company name 1
+            </label>
+            <input type="text" id="comp_name1">
+            <label for="name">
+                Responsibilities
+            </label>
+            <textarea id="comp_name"></textarea>
+            <label for="comp_name2">
+               Company name 2
+            </label>
+            <input type="text" id="inp_comp">
+            <label for="name">
+                Responsibilities
+            </label>
+            <input type="text" id="inp_name">
+            <label for="name">
+                Education article
+            </label>
+            <input type="text" id="inp_name">
+            <label for="name">
+                School name 1
+            </label>
+            <input type="text" id="inp_name">
         </div>
     </main>
 </body>
