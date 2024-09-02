@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./Styles/app.css">
 </head>
 
 <body>
@@ -43,77 +44,79 @@
                 </div><br>
             </div>
             <div class="proff_detail">
-                <p id="article">
+                <pre id="article">
                     Use this section to give recruiters a quick glimpse of your<br>
                     professional details. In just 3-4 lines, highlight your<br>
                     background, education and main skills.
-                </p>
+                </pre>
             </div>
             <div class="proff_expr">
                 <h1>
                     Professional Experiance
                 </h1><br>
-                <article id="prof_article">
+                <pre id="prof_article">
                     Summaize your Job experiance including Comapny Name,<br>
                     Duration of Job and your responsibility in those jobs.
-                </article>
+                </pre>
                 <div class="job_list">
-                    <p class="job1" id="input_company">Company Name</p>
-                    <ul>
+                    <p class="job1" id="input_company1">Company Name1</p>
+                    <p id="input_company"></p>
+                    <!-- <ul>
                         <li>Responsibility</li>
                         <li>Responsibility</li>
                         <li>Responsibility</li>
-                    </ul>
-                    <p class="job2">Company Name</p>
-                    <ul>
+                    </ul> -->
+                    <p class="job2">Company Name2</p>
+                    <p id="input_company2"></p>
+                    <!-- <ul>
                         <li>Responsibility</li>
                         <li>Responsibility</li>
                         <li>Responsibility</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="education">
-                    <p class="edu_desc">
+                    <pre class="edu_desc" id="edu_desc">
                         Include Your degree,school name and the year you graduate<br>
                         If you don't have a degree,list courseworks or training that's<br>
                         relevant to the job you are applying for..
-                    </p>
+                    </pre>
                     <br>
                     <div class="edu_inf">
                         <div class="edu_place1">
                             <div class="edu_1">
-                                <p>
+                                <p id="school1">
                                     Degree in Field of Study<br>
                                     school Name,City
                                 </p>
                             </div>
                             <div class="edu1_year">
-                                <p>
+                                <p id="fin1">
                                     Enter your graduation year
                                 </p>
                             </div>
                         </div>
                         <div class="edu_place2">
                             <div class="edu_2">
-                                <p>
+                                <p id="school2">
                                     Degree in Field of Study<br>
                                     school Name,City
                                 </p>
                             </div>
                             <div class="edu2_year">
-                                <p>
+                                <p id="fin2">
                                     Enter your graduation year
                                 </p>
                             </div>
                         </div>
                         <div class="edu_place3">
                             <div class="edu_3">
-                                <p>
+                                <p id="school3">
                                     Degree in Field of Study<br>
                                     school Name,City
                                 </p>
                             </div>
                             <div class="edu3_year">
-                                <p>
+                                <p id="fin3">
                                     Enter your graduation year
                                 </p>
                             </div>
@@ -123,6 +126,10 @@
             </div>
         </div>
         <div class="ip_side">
+            <label>
+                Upload Your Photo
+            </label>
+            <input type="file" value="Choose Photo" id="img1"><button id="btn_sub">Sub</button>
             <label for="name">
                 Name
             </label>
@@ -154,15 +161,35 @@
             <label for="name">
                 Responsibilities
             </label>
-            <input type="text" id="inp_name">
+            <textarea id="resp2"></textarea>
             <label for="name">
                 Education article
             </label>
-            <input type="text" id="inp_name">
+            <textarea id="edu_desc1"></textarea>
             <label for="name">
                 School name 1
             </label>
-            <input type="text" id="inp_name">
+            <input type="text" id="inp_school1">.
+            <label for="name">
+                Finishing year
+            </label>
+            <input type="text" id="inp_fin1">
+            <label for="name">
+                School name 2
+            </label>
+            <input type="text" id="inp_school2">
+            <label for="name">
+                Finishing year
+            </label>
+            <input type="text" id="inp_fin2">
+            <label for="name">
+                School name 3
+            </label>
+            <input type="text" id="inp_school3">
+            <label for="name">
+                Finishing year
+            </label>
+            <input type="text" id="inp_fin3">
         </div>
     </main>
 </body>
