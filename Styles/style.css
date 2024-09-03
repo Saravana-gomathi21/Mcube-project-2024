@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: 3px;
     padding: 0px;
     border: 0px;
 }
@@ -61,6 +61,14 @@ header nav ul li{
     position: absolute;
     left: 750px;
     top:80px; 
+}
+.btn_land{
+    width: 130px;
+    height: 40px;
+    padding: 7px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #333a4d;
 }
 
 
